@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  padding-bottom: 1%;
   box-sizing: border-box;
 }
 body {
@@ -99,6 +100,9 @@ button:active {
 }
 #score-title {
   margin: 1rem 0;
+  color: black;
+  background-color: #d381e5;
+  padding: auto;
 }
 #score-btn,
 #check-answer {
@@ -125,6 +129,7 @@ button:active {
   border-radius: 25px;
   outline: none;
   cursor: pointer;
+  box-shadow: #fff;
 }
 #score-btn {
   background: linear-gradient(90deg, #be2edd, #5f27cd);
@@ -145,4 +150,12 @@ button:active {
   border-radius: 25px;
   outline: none;
   cursor: pointer;
+}
+h3 {
+  padding-left: 90%;
+
+  font-size: medium;
+  border-radius: 0ch;
+  border-color: #be2edd;
+  box-shadow: #5f27cd;
 }

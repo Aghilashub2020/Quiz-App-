@@ -10,15 +10,15 @@ body {
       rgba(101, 151, 209, 0.8),
       rgba(202, 102, 211, 0.5)
     ),
-    url(/quizbg.jpg);
+    url(question-2004314_960_720.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
 }
 img {
-  width: 5.5rem;
-  height: 5.2rem;
+  width: 10.5rem;
+  height: 10.2rem;
   border-radius: 50%;
 }
 .img {
@@ -36,7 +36,7 @@ img {
   margin: 3rem auto;
   width: 90vw;
   padding: 2rem;
-  background: #fff;
+  background: rgba(0, 255, 221, 0.45);
   cursor: default;
   border-radius: 1rem;
 }
@@ -146,4 +146,3 @@ button:active {
   outline: none;
   cursor: pointer;
 }
-
